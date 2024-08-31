@@ -1,0 +1,120 @@
+/* Basic reset and body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #0170bf;
+    
+}
+
+/* Top bar styles */
+.topbar {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd; /* Border below the top bar */
+}
+
+.logo {
+    height: 120px;
+}
+
+/* Filter and sort options container */
+.filter-topbar {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px; /* Space between the filter-topbar and main content */
+}
+
+/* Filter container styles */
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Filter and sort category styles */
+.filter-category, .sort-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Filter labels and inputs */
+.filter-category label, .sort-container label {
+    font-weight: bold;
+}
+
+.filter-category input, .filter-category select, .sort-container select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+/* Sort container styles */
+.sort-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* Ensure consistent style with filter options */
+}
+
+/* Main container styles */
+.container {
+    display: flex;
+    margin-top: 0; /* Remove extra space */
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 0px;
+    padding: 0px;
+    background-color: #0170bf;
+    color: #fff;
+}
+
+/* Main content area styles */
+.main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fec203;
+    /* Align the main content area with the left margin */
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Job list container */
+#jobList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Job card styles */
+.job-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: relative; /* Ensure positioning is relative for any absolute positioning inside */
+}
+
+.job-card h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.job-card p {
+    margin: 5px 0;
+}

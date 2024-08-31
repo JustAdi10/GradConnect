@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="topbar">
+        <a href="index.html">
+            <img src="logo.png" alt="Logo" class="logo">
+        </a>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <!-- Sidebar content -->
+        </div>
+        <div class="main">
+            <div class="filter-topbar">
+                <div class="filter-container">
+                    <div class="filter-category">
+                        <label for="filterJobTitle">Job Title</label>
+                        <input type="text" id="filterJobTitle" oninput="filterJobs()">
+                    </div>
+                    <div class="filter-category">
+                        <label for="filterCompany">Company</label>
+                        <input type="text" id="filterCompany" oninput="filterJobs()">
+                    </div>
+                    <div class="filter-category">
+                        <label for="filterType">Type of Recruiter</label>
+                        <select id="filterType" onchange="filterJobs()">
+                            <option value="">All</option>
+                            <option value="Full-time">Full-time</option>
+                            <option value="Part-time">Part-time</option>
+                            <option value="Internship">Internship</option>
+                            <option value="Contract">Contract</option>
+                        </select>
+                    </div>
+                    <div class="filter-category">
+                        <label for="filterLocation">Location</label>
+                        <input type="text" id="filterLocation" oninput="filterJobs()">
+                    </div>
+                </div>
+                <div class="sort-container">
+                    <label for="sortStipend">Sort by Stipend</label>
+                    <select id="sortStipend" onchange="sortJobs()">
+                        <option value="asc">Low to High</option>
+                        <option value="desc">High to Low</option>
+                    </select>
+                </div>
+            </div>
+            <h2>Job Listings</h2>
+            <div id="jobList">
+                <!-- Job cards will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
