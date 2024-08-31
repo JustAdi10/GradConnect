@@ -1,0 +1,37 @@
+.head1{
+    padding: 35px;
+    background-color: black;
+}
+
+.headbut{
+    border: 2px solid black;
+    margin: 25px;
+    font-size: 22px;
+    color: aliceblue;
+    /* display: block; */
+    padding: .5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.headbut_left{
+    border: 2px solid black;
+    margin: 25px;
+    margin-left: 0px;
+    font-size: 22px;
+    color: aliceblue;
+    /* display: block; */
+    padding: .5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.headbut_right{
+    border: 2px solid black;
+    margin: 25px;
+    margin-right: 0px;
+    font-size: 22px;
+    color: aliceblue;
+    /* display: block; */
+    padding: .5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
