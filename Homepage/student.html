@@ -3,108 +3,190 @@
 <head>
   <meta charset="UTF-8" />
   <title>Student Dashboard | By Code Info</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="student.css" />
   <!-- Font Awesome Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 </head>
 <body>
-  <div class="container">
-
-
-    <section class="main">
-      <div class="main-top">
-        <h1>Student Information</h1>
-        <i class="fas fa-user-cog"></i>
-      </div>
-      <div class="users">
-        <div class="card">
-          <h4>John Doe</h4>
-          <p>Roll No: 101</p>
-          <p>Year: 1st Year</p>
-          <p>Skills: Java, HTML</p>
-          <p><a href="#">Resume</a></p>
-          <button>Profile</button>
-        </div>
-        <div class="card">
-          <h4>Jane Smith</h4>
-          <p>Roll No: 102</p>
-          <p>Year: 2nd Year</p>
-          <p>Skills: Python, CSS</p>
-          <p><a href="#">Resume</a></p>
-          <button>Profile</button>
-        </div>
-        <div class="card">
-          <h4>Emily Johnson</h4>
-          <p>Roll No: 103</p>
-          <p>Year: 3rd Year</p>
-          <p>Skills: JavaScript, React</p>
-          <p><a href="#">Resume</a></p>
-          <button>Profile</button>
-        </div>
-        <div class="card">
-          <h4>Michael Brown</h4>
-          <p>Roll No: 104</p>
-          <p>Year: 4th Year</p>
-          <p>Skills: Java, Python</p>
-          <p><a href="#">Resume</a></p>
-          <button>Profile</button>
-        </div>
-      </div>
 
       <section class="attendance">
         <div class="attendance-list">
-          <h1>Attendance List</h1>
+          <h1>Student List</h1>
           <table class="table">
-            <thead>
-              <tr>
-                <th>Roll No</th>
-                <th>Name</th>
-                <th>Year</th>
-                <th>Date</th>
-                <th>Join Time</th>
-                <th>Logout Time</th>
-                <th>Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>101</td>
-                <td>John Doe</td>
-                <td>1st Year</td>
-                <td>03-24-22</td>
-                <td>8:00AM</td>
-                <td>3:00PM</td>
-                <td><button>View</button></td>
-              </tr>
-              <tr class="active">
-                <td>102</td>
-                <td>Jane Smith</td>
-                <td>2nd Year</td>
-                <td>03-24-22</td>
-                <td>9:00AM</td>
-                <td>4:00PM</td>
-                <td><button>View</button></td>
-              </tr>
-              <tr>
-                <td>103</td>
-                <td>Emily Johnson</td>
-                <td>3rd Year</td>
-                <td>03-24-22</td>
-                <td>8:00AM</td>
-                <td>3:00PM</td>
-                <td><button>View</button></td>
-              </tr>
-              <tr>
-                <td>104</td>
-                <td>Michael Brown</td>
-                <td>4th Year</td>
-                <td>03-24-22</td>
-                <td>8:00AM</td>
-                <td>3:00PM</td>
-                <td><button>View</button></td>
-              </tr>
-            </tbody>
-          </table>
+    <thead>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Skillset</th>
+            <th>Email</th>
+            <th>Resume</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>101</td>
+            <td>John Doe</td>
+            <td>1st Year</td>
+            <td>React Developer</td>
+            <td>johndoe123@gmail.com</td>
+            <td><button><a href="resume.png" class="resume">View</a></button></td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Jane Smith</td>
+            <td>2nd Year</td>
+            <td>Java Developer</td>
+            <td>janesmith456@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Michael Johnson</td>
+            <td>3rd Year</td>
+            <td>Python Developer</td>
+            <td>michaelj789@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Emily Davis</td>
+            <td>4th Year</td>
+            <td>Data Scientist</td>
+            <td>emilyd123@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>William Brown</td>
+            <td>1st Year</td>
+            <td>UI/UX Designer</td>
+            <td>williamb555@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>106</td>
+            <td>Olivia Wilson</td>
+            <td>2nd Year</td>
+            <td>Frontend Developer</td>
+            <td>oliviaw234@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>107</td>
+            <td>James Taylor</td>
+            <td>3rd Year</td>
+            <td>Backend Developer</td>
+            <td>jamest789@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>108</td>
+            <td>Ava Lee</td>
+            <td>4th Year</td>
+            <td>Full Stack Developer</td>
+            <td>avalee890@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>109</td>
+            <td>Alexander Moore</td>
+            <td>1st Year</td>
+            <td>AI/ML Enthusiast</td>
+            <td>alexmoore123@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>110</td>
+            <td>Sophia Harris</td>
+            <td>2nd Year</td>
+            <td>Data Analyst</td>
+            <td>sophiah234@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>111</td>
+            <td>Benjamin Martin</td>
+            <td>3rd Year</td>
+            <td>Cloud Computing</td>
+            <td>benmartin456@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>112</td>
+            <td>Charlotte Garcia</td>
+            <td>4th Year</td>
+            <td>DevOps Engineer</td>
+            <td>charlotteg789@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>113</td>
+            <td>Daniel Rodriguez</td>
+            <td>1st Year</td>
+            <td>Mobile App Developer</td>
+            <td>danielr123@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>114</td>
+            <td>Amelia Lewis</td>
+            <td>2nd Year</td>
+            <td>Software Engineer</td>
+            <td>amelial234@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>115</td>
+            <td>Lucas Walker</td>
+            <td>3rd Year</td>
+            <td>Game Developer</td>
+            <td>lucasw345@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>116</td>
+            <td>Isabella Allen</td>
+            <td>4th Year</td>
+            <td>Cybersecurity Specialist</td>
+            <td>isabellaa567@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>117</td>
+            <td>Matthew King</td>
+            <td>1st Year</td>
+            <td>Web Developer</td>
+            <td>matthewk678@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>118</td>
+            <td>Mia Scott</td>
+            <td>2nd Year</td>
+            <td>Blockchain Developer</td>
+            <td>miascot789@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>119</td>
+            <td>David Young</td>
+            <td>3rd Year</td>
+            <td>AI Engineer</td>
+            <td>davidayoung@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>120</td>
+            <td>Ella Green</td>
+            <td>4th Year</td>
+            <td>Machine Learning</td>
+            <td>ellagreen890@gmail.com</td>
+            <td><button>View</button></td>
+        </tr>
+    </tbody>
+</table>
+
         </div>
       </section>
     </section>
