@@ -1,5 +1,4 @@
-<span style="font-family: verdana, geneva, sans-serif;">/*  import google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 *{
   margin: 0;
   padding: 0;
@@ -12,6 +11,11 @@
 body{
   background: rgb(226, 226, 226);
 }
+
+.resume{
+  width: 0px;
+}
+
 nav{
   position: sticky;
   top: 0;
@@ -145,10 +149,10 @@ a:hover i{
   cursor: pointer;
   border-radius: 10px;
   background: transparent;
-  border: 1px solid #4AD489;
+  border: 1px solid black;
 }
 .users .card button:hover{
-  background: #4AD489;
+  background: black;
   color: #fff;
   transition: 0.5s;
 }
@@ -176,7 +180,7 @@ a:hover i{
 }
 table thead tr{
   color: #fff;
-  background: #34AF6D;
+  background: black;
   text-align: left;
   font-weight: bold;
 }
@@ -192,20 +196,20 @@ table thead tr{
 }
 .table tbody tr.active{
   font-weight: bold;
-  color: #4AD489;
+  color: black;
 }
 .table tbody tr:last-of-type{
-  border-bottom: 2px solid #4AD489;
+  border-bottom: 2px solid black;
 }
 .table button{
   padding: 6px 20px;
   border-radius: 10px;
   cursor: pointer;
   background: transparent;
-  border: 1px solid #4AD489;
+  border: 1px solid black;
 }
 .table button:hover{
-  background: #4AD489;
+  background: black;
   color: #fff;
   transition: 0.5rem;
-}</span>
+}
